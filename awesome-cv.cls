@@ -541,7 +541,7 @@
         %   \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
         %   \@extrainfo%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{https://orcid.org/\@extrainfo}{\faorcid\acvHeaderIconSep\@extrainfo}%
+          \href{https://orcid.org/\@extrainfo}{\faUser\acvHeaderIconSep\@extrainfo}%
         }%
     } \\[\acvHeaderAfterSocialSkip]%
     \ifthenelse{\isundefined{\@quote}}%
